@@ -1,9 +1,9 @@
-import React from 'react';
+import type React from 'react';
 
 interface Step {
   title: string;
   description: string;
-  icon: JSX.Element;
+  icon: React.ReactNode;
 }
 
 const HowItWorks: React.FC = () => {
